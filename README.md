@@ -44,3 +44,33 @@ gdf = gpd.read_file("path/to/dataset.shp")
 # Inspect coordinate reference system and initial rows
 print(gdf.crs)
 print(gdf.head())
+```
+
+## ⚖️ License & Attribution Notice
+
+### Data Source & Ownership
+The underlying spatial data and topographic features provided in this repository are produced, owned, and maintained by the **Badan Informasi Geospasial (BIG)** (Geospatial Information Agency of the Republic of Indonesia) through the official **Ina-Geoportal / Tanah Air Indonesia** initiative.
+
+- **Data Provider**: Badan Informasi Geospasial (BIG) – Republic of Indonesia
+- **Portals**: [Tanah Air Indonesia](https://tanahair.indonesia.go.id/portal-web/webmap) | [BIG Public Data Store](https://drive.big.go.id/s/549RG7QoXoJ7Hry?opendetails=)
+- **Legal Context**: Governed under the framework of Indonesia's National Spatial Data Infrastructure (*Jaringan Informasi Geospasial Nasional - JIGN*) and One Map Policy (*Kebijakan Satu Peta* - Perpres No. 9/2016 jo. Perpres No. 23/2021).
+
+### Terms of Attribution
+This repository redistributes and organizes the public data for development, research, and analysis purposes. If you use, modify, or integrate these datasets into public applications, research papers, maps, or commercial products, you **must retain attribution** to the original source.
+
+**Suggested Citation / Credit Line:**
+> *Spatial data courtesy of Badan Informasi Geospasial (BIG), Republic of Indonesia (Ina-Geoportal: tanahair.indonesia.go.id).*
+
+**BibTeX (for academic or research papers):**
+```bibtex
+@misc{BIG_Indonesia_Geospatial,
+  author       = {{Badan Informasi Geospasial}},
+  title        = {{Ina-Geoportal: Portal Informasi Geospasial Terpadu}},
+  year         = {2026},
+  howpublished = {\url{[https://tanahair.indonesia.go.id/](https://tanahair.indonesia.go.id/)}},
+  note         = {Accessed via official repository/public cloud storage}
+}
+```
+
+## Disclaimer
+This dataset is provided "as is", without warranty of any kind, express or implied. The maintainer of this repository does not claim ownership of the underlying geospatial boundaries and is not liable for boundary disputes, administrative discrepancies, or positional inaccuracies originating from the source data. For legal, regulatory, or official land boundary matters, always refer to the verified datasets directly endorsed by the Geospatial Information Agency of Indonesia.
